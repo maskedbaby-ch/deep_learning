@@ -1,0 +1,11 @@
+.\armcm0_debug\arm_fft_bin_example_f32.o: arm_fft_bin_example_f32.c
+.\armcm0_debug\arm_fft_bin_example_f32.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\DSP\Include\arm_math.h
+.\armcm0_debug\arm_fft_bin_example_f32.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h
+.\armcm0_debug\arm_fft_bin_example_f32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\armcm0_debug\arm_fft_bin_example_f32.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\armcm0_debug\arm_fft_bin_example_f32.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\armcm0_debug\arm_fft_bin_example_f32.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\armcm0_debug\arm_fft_bin_example_f32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\armcm0_debug\arm_fft_bin_example_f32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\armcm0_debug\arm_fft_bin_example_f32.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\DSP\Include\arm_const_structs.h
+.\armcm0_debug\arm_fft_bin_example_f32.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\DSP\Include\arm_common_tables.h

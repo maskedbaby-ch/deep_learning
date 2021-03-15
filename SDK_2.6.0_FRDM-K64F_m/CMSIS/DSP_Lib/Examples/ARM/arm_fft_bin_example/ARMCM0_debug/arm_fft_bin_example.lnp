@@ -1,0 +1,9 @@
+--cpu=Cortex-M4.fp
+".\armcm0_debug\arm_fft_bin_data.o"
+".\armcm0_debug\arm_fft_bin_example_f32.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+".\armcm0_debug\startup_mk64f12.o"
+".\armcm0_debug\system_mk64f12.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\ARMCM0_debug\arm_fft_bin_example.map" -o .\ARMCM0_debug\arm_fft_bin_example.axf

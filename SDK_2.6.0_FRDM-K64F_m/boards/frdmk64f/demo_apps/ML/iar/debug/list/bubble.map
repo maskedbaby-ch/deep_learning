@@ -1,0 +1,837 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  15/Mar/2021  11:16:14
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\bubble.out
+#    Map file     =
+#        C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\list\bubble.map
+#    Command line =
+#        -f C:\Users\nxf56274\AppData\Local\Temp\1\EW48F9.tmp
+#        ("C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\board.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\bubble.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\clock_config.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_assert.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_clock.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_common.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_debug_console.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_ftfx_cache.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_ftfx_controller.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_ftfx_flash.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_ftfx_flexnvm.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_ftm.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_gpio.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_i2c.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_smc.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_str.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\fsl_uart.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\generic_list.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_activation.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_avgpool.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_baselayer.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_concat.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_conv2d.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_conv2d_trans.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_cropping.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_dense.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_dw_conv2d.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_flatten.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_global_pool.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_gru_cell.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_input.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_lambda.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_layers.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_local.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_local_q15.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_lstm_cell.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_matrix.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_maxpool.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_output.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_rnn.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_simple_cell.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_softmax.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_sumpool.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_tensor.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_upsample.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_utils.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\nnom_zero_padding.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\pin_mux.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\serial_manager.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\serial_port_uart.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\startup_MK64F12.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\system_MK64F12.o"
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj\uart_adapter.o"
+#        --redirect _Printf=_PrintfSmallNoMb --redirect _Scanf=_ScanfSmallNoMb
+#        --no_out_extension -o "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\bubble.out" --map
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar\debug\list\bubble.map" --config
+#        "C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F -
+#        Copy\boards\frdmk64f\demo_apps\ML\iar/MK64FN1M0xxx12_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x400 to 0x40f] { section FlashConfig };
+"P2":  place in [from 0x0 to 0x3ff] |
+                [from 0x410 to 0xf'ffff] { ro };
+define block RW { rw };
+"P3":  place in [from 0x1fff'0000 to 0x1fff'ffff] |
+                [from 0x2000'0000 to 0x2002'fbff] { block RW };
+define block ZI { zi };
+"P4":  place in [from 0x1fff'0000 to 0x1fff'ffff] |
+                [from 0x2000'0000 to 0x2002'fbff] { block ZI };
+define block HEAP with size = 20K, alignment = 8 { };
+"P5":  place in [from 0x1fff'0000 to 0x1fff'ffff] |
+                [from 0x2000'0000 to 0x2002'fbff] { last block HEAP };
+define block CSTACK with size = 1K, alignment = 8 { };
+"P6":  place in [from 0x2002'fc00 to 0x2002'ffff] { block CSTACK };
+initialize by copy { rw, section .textrw };
+
+  Section            Kind         Address      Size  Object
+  -------            ----         -------      ----  ------
+"A0":                                         0x400
+  .intvec            ro code          0x0     0x400  startup_MK64F12.o [1]
+                                  - 0x400     0x400
+
+"P1":                                          0x10
+  FlashConfig        ro code        0x400      0x10  startup_MK64F12.o [1]
+                                  - 0x410      0x10
+
+"P2":                                      0x1'b9bc
+  .rodata            const          0x410  0x1'2000  bubble.o [1]
+  .rodata            const       0x1'2410    0x2880  bubble.o [1]
+  .text              ro code     0x1'4c90     0xf7c  dlmalloc.o [2]
+  .text              ro code     0x1'5c0c       0x6  abort.o [2]
+  .text              ro code     0x1'5c12      0x3a  zero_init3.o [4]
+  .text              ro code     0x1'5c4c      0x2c  xgetmemchunk.o [2]
+  .text              ro code     0x1'5c78      0x14  exit.o [5]
+  .rodata            const       0x1'5c8c     0xa20  bubble.o [1]
+  .text              ro code     0x1'66ac     0x9d6  nnom_local.o [1]
+  .text              ro code     0x1'7082      0x2e  copy_init3.o [4]
+  .text              ro code     0x1'70b0     0x84e  nnom.o [1]
+  .text              ro code     0x1'78fe       0x2  startup_MK64F12.o [1]
+  .text              ro code     0x1'7900      0x66  ABImemset.o [4]
+  .text              ro code     0x1'7966     0x1be  nnom_tensor.o [1]
+  .text              ro code     0x1'7b24      0xa6  ABImemcpy.o [4]
+  .text              ro code     0x1'7bca     0x6d0  fsl_str.o [1]
+  .text              ro code     0x1'829a       0x2  startup_MK64F12.o [1]
+  .text              ro code     0x1'829c     0x274  I64DivMod.o [4]
+  .text              ro code     0x1'8510      0x36  strlen.o [4]
+  .text              ro code     0x1'8546       0x2  startup_MK64F12.o [1]
+  .text              ro code     0x1'8548       0x2  I64DivZer.o [4]
+  .text              ro code     0x1'854a       0x2  startup_MK64F12.o [1]
+  .text              ro code     0x1'854c     0x55c  fsl_clock.o [1]
+  .text              ro code     0x1'8aa8      0x1c  fsl_assert.o [1]
+  .text              ro code     0x1'8ac4     0x270  fsl_debug_console.o [1]
+  .text              ro code     0x1'8d34     0x2b8  serial_manager.o [1]
+  .text              ro code     0x1'8fec     0x128  serial_port_uart.o [1]
+  .text              ro code     0x1'9114     0x1dc  uart_adapter.o [1]
+  .text              ro code     0x1'92f0     0x468  fsl_uart.o [1]
+  .text              ro code     0x1'9758     0x3d8  bubble.o [1]
+  .text              ro code     0x1'9b30      0x62  nnom_layers.o [1]
+  .text              ro code     0x1'9b92       0x2  startup_MK64F12.o [1]
+  .text              ro code     0x1'9b94      0xfc  nnom_input.o [1]
+  .text              ro code     0x1'9c90     0x3d6  nnom_conv2d.o [1]
+  .text              ro code     0x1'a066       0x2  startup_MK64F12.o [1]
+  .text              ro code     0x1'a068      0x6a  nnom_activation.o [1]
+  .text              ro code     0x1'a0d2       0x2  startup_MK64F12.o [1]
+  .text              ro code     0x1'a0d4     0x238  nnom_maxpool.o [1]
+  .text              ro code     0x1'a30c     0x234  nnom_dense.o [1]
+  .text              ro code     0x1'a540      0xb2  nnom_softmax.o [1]
+  .text              ro code     0x1'a5f2       0x2  startup_MK64F12.o [1]
+  .text              ro code     0x1'a5f4      0x58  nnom_output.o [1]
+  .text              ro code     0x1'a64c      0x22  S32ToDbl.o [3]
+  .text              ro code     0x1'a66e       0x2  startup_MK64F12.o [1]
+  .text              ro code     0x1'a670     0x1a2  DblMul.o [3]
+  .text              ro code     0x1'a814      0x3a  DblToS32.o [3]
+  .text              ro code     0x1'a850      0xd0  nnom_utils.o [1]
+  .text              ro code     0x1'a920      0x8c  pin_mux.o [1]
+  .text              ro code     0x1'a9ac      0x84  clock_config.o [1]
+  .text              ro code     0x1'aa30      0x18  board.o [1]
+  .text              ro code     0x1'aa48     0x30c  nnom_local_q15.o [1]
+  .text              ro code     0x1'ad54      0x22  S64Shr.o [4]
+  .rodata            const       0x1'ad78     0x3c0  bubble.o [1]
+  .rodata            const       0x1'b138     0x120  fsl_uart.o [1]
+  .rodata            const       0x1'b258     0x120  fsl_uart.o [1]
+  .text              ro code     0x1'b378      0x7c  fsl_i2c.o [1]
+  .rodata            const       0x1'b3f4      0x6c  bubble.o [1]
+  .rodata            const       0x1'b460      0x6c  fsl_debug_console.o [1]
+  .rodata            const       0x1'b4cc      0x60  bubble.o [1]
+  .rodata            const       0x1'b52c      0x60  serial_port_uart.o [1]
+  .rodata            const       0x1'b58c      0x5c  serial_manager.o [1]
+  .text              ro code     0x1'b5e8      0x58  nnom_baselayer.o [1]
+  .rodata            const       0x1'b640      0x54  fsl_clock.o [1]
+  .rodata            const       0x1'b694      0x54  fsl_uart.o [1]
+  .rodata            const       0x1'b6e8      0x50  uart_adapter.o [1]
+  .rodata            const       0x1'b738      0x48  bubble.o [1]
+  .rodata            const       0x1'b780      0x48  uart_adapter.o [1]
+  .text              ro code     0x1'b7c8      0x36  system_MK64F12.o [1]
+  .rodata            const       0x1'b800      0x30  bubble.o [1]
+  .rodata            const       0x1'b830      0x2c  fsl_assert.o [1]
+  .rodata            const       0x1'b85c      0x28  fsl_debug_console.o [1]
+  .text              ro code     0x1'b884      0x28  startup_MK64F12.o [1]
+  .text              ro code     0x1'b8ac      0x28  data_init.o [4]
+  .rodata            const       0x1'b8d4      0x24  uart_adapter.o [1]
+  .text              ro code     0x1'b8f8      0x22  fpinit_M.o [3]
+  .iar.init_table    const       0x1'b91c      0x24  - Linker created -
+  .text              ro code     0x1'b940      0x1e  cmain.o [4]
+  .text              ro code     0x1'b95e       0x4  low_level_init.o [2]
+  .text              ro code     0x1'b962       0x4  exit.o [2]
+  .text              ro code     0x1'b968       0xa  cexit.o [4]
+  .rodata            const       0x1'b974      0x1c  bubble.o [1]
+  .rodata            const       0x1'b990      0x1c  fsl_uart.o [1]
+  .rodata            const       0x1'b9ac      0x18  bubble.o [1]
+  .rodata            const       0x1'b9c4      0x18  bubble.o [1]
+  .rodata            const       0x1'b9dc      0x18  bubble.o [1]
+  .rodata            const       0x1'b9f4      0x18  bubble.o [1]
+  .rodata            const       0x1'ba0c      0x18  fsl_uart.o [1]
+  .rodata            const       0x1'ba24      0x18  fsl_uart.o [1]
+  .rodata            const       0x1'ba3c      0x18  fsl_uart.o [1]
+  .rodata            const       0x1'ba54      0x18  uart_adapter.o [1]
+  .rodata            const       0x1'ba6c      0x14  bubble.o [1]
+  .rodata            const       0x1'ba80      0x14  fsl_clock.o [1]
+  .rodata            const       0x1'ba94      0x14  fsl_clock.o [1]
+  .rodata            const       0x1'baa8      0x10  fsl_clock.o [1]
+  .rodata            const       0x1'bab8      0x10  fsl_debug_console.o [1]
+  .rodata            const       0x1'bac8      0x10  serial_manager.o [1]
+  .rodata            const       0x1'bad8      0x10  serial_port_uart.o [1]
+  .rodata            const       0x1'bae8      0x10  serial_port_uart.o [1]
+  .rodata            const       0x1'baf8       0xc  bubble.o [1]
+  .rodata            const       0x1'bb04       0xc  bubble.o [1]
+  .rodata            const       0x1'bb10       0xc  clock_config.o [1]
+  .rodata            const       0x1'bb1c       0xc  fsl_clock.o [1]
+  .rodata            const       0x1'bb28       0xc  fsl_debug_console.o [1]
+  .rodata            const       0x1'bb34       0xc  fsl_debug_console.o [1]
+  .rodata            const       0x1'bb40       0xc  serial_manager.o [1]
+  .rodata            const       0x1'bb4c       0xc  serial_manager.o [1]
+  .text              ro code     0x1'bb58       0xc  cstartup_M.o [4]
+  Initializer bytes  const       0x1'bb64       0xc  <for RW-1>
+  .rodata            const       0x1'bb70       0x8  bubble.o [1]
+  .rodata            const       0x1'bb78       0x8  bubble.o [1]
+  .rodata            const       0x1'bb80       0x8  bubble.o [1]
+  .rodata            const       0x1'bb88       0x8  bubble.o [1]
+  .rodata            const       0x1'bb90       0x8  bubble.o [1]
+  .rodata            const       0x1'bb98       0x8  bubble.o [1]
+  .rodata            const       0x1'bba0       0x8  bubble.o [1]
+  .rodata            const       0x1'bba8       0x8  bubble.o [1]
+  .rodata            const       0x1'bbb0       0x8  bubble.o [1]
+  .rodata            const       0x1'bbb8       0x8  bubble.o [1]
+  .rodata            const       0x1'bbc0       0x8  clock_config.o [1]
+  .rodata            const       0x1'bbc8       0x8  clock_config.o [1]
+  .rodata            const       0x1'bbd0       0x8  fsl_clock.o [1]
+  .rodata            const       0x1'bbd8       0x8  fsl_debug_console.o [1]
+  .rodata            const       0x1'bbe0       0x8  fsl_uart.o [1]
+  .rodata            const       0x1'bbe8       0x8  fsl_uart.o [1]
+  .rodata            const       0x1'bbf0       0x8  serial_manager.o [1]
+  .rodata            const       0x1'bbf8       0x8  serial_manager.o [1]
+  .rodata            const       0x1'bc00       0x8  serial_manager.o [1]
+  .rodata            const       0x1'bc08       0x8  serial_manager.o [1]
+  .rodata            const       0x1'bc10       0x8  serial_port_uart.o [1]
+  .rodata            const       0x1'bc18       0x8  serial_port_uart.o [1]
+  .rodata            const       0x1'bc20       0x8  uart_adapter.o [1]
+  .rodata            const       0x1'bc28       0x8  uart_adapter.o [1]
+  .rodata            const       0x1'bc30       0x8  uart_adapter.o [1]
+  .rodata            const       0x1'bc38       0x8  uart_adapter.o [1]
+  .text              ro code     0x1'bc40       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bc48       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bc50       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bc58       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bc60       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bc68       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bc70       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bc78       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bc80       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bc88       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bc90       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bc98       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bca0       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bca8       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bcb0       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bcb8       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bcc0       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bcc8       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bcd0       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bcd8       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bce0       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bce8       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bcf0       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bcf8       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd00       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd08       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd10       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd18       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd20       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd28       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd30       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd38       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd40       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd48       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd50       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd58       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd60       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd68       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd70       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd78       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd80       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd88       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd90       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bd98       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bda0       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bda8       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bdb0       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bdb8       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bdc0       0x8  startup_MK64F12.o [1]
+  .text              ro code     0x1'bdc8       0x4  startup_MK64F12.o [1]
+  .rodata            const       0x1'bdcc       0x0  zero_init3.o [4]
+  .rodata            const       0x1'bdcc       0x0  copy_init3.o [4]
+                               - 0x1'bdcc  0x1'b9bc
+
+"P3-P4", part 1 of 2:                           0xc
+  RW                          0x1fff'0000       0xc  <Block>
+    RW-1                      0x1fff'0000       0xc  <Init block>
+      .data          inited   0x1fff'0000       0x4  fsl_clock.o [1]
+      .data          inited   0x1fff'0004       0x4  fsl_clock.o [1]
+      .data          inited   0x1fff'0008       0x4  system_MK64F12.o [1]
+                            - 0x1fff'000c       0xc
+
+"P3-P4", part 2 of 2:                         0x908
+  ZI                          0x1fff'000c     0x908  <Block>
+    .bss             zero     0x1fff'000c     0x310  bubble.o [1]
+    .bss             zero     0x1fff'031c       0xc  bubble.o [1]
+    .bss             zero     0x1fff'0328      0x88  bubble.o [1]
+    .bss             zero     0x1fff'03b0       0x4  bubble.o [1]
+    .bss             zero     0x1fff'03b4     0x310  bubble.o [1]
+    .bss             zero     0x1fff'06c4       0x4  fsl_clock.o [1]
+    .bss             zero     0x1fff'06c8       0x4  fsl_clock.o [1]
+    .bss             zero     0x1fff'06cc      0x1c  fsl_debug_console.o [1]
+    .bss             zero     0x1fff'06e8       0x4  fsl_debug_console.o [1]
+    .bss             zero     0x1fff'06ec       0xc  fsl_i2c.o [1]
+    .bss             zero     0x1fff'06f8       0x4  fsl_i2c.o [1]
+    .bss             zero     0x1fff'06fc       0x4  fsl_i2c.o [1]
+    .bss             zero     0x1fff'0700      0x18  fsl_uart.o [1]
+    .bss             zero     0x1fff'0718       0x4  fsl_uart.o [1]
+    .bss             zero     0x1fff'071c       0x4  nnom.o [1]
+    .bss             zero     0x1fff'0720      0x18  dlmalloc.o [2]
+    .bss             zero     0x1fff'0738     0x1d8  dlmalloc.o [2]
+    .bss             zero     0x1fff'0910       0x4  xgetmemchunk.o [2]
+                            - 0x1fff'0914     0x908
+
+"P5":                                        0x5000
+  HEAP                        0x1fff'0918    0x5000  <Block>
+    HEAP             uninit   0x1fff'0918    0x5000  <Block tail>
+                            - 0x1fff'5918    0x5000
+
+"P6":                                         0x400
+  CSTACK                      0x2002'fc00     0x400  <Block>
+    CSTACK           uninit   0x2002'fc00     0x400  <Block tail>
+                            - 0x2003'0000     0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+     0x1'bdcc     0xf'ffff  0xe'4234
+  0x1fff'0914  0x1fff'0917       0x4
+  0x1fff'5918  0x1fff'ffff    0xa6e8
+  0x2000'0000  0x2002'fbff  0x2'fc00
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x908:
+          0x1fff'000c  0x908
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xc:
+             0x1'bb64    0xc
+    1 destination range, total size 0xc:
+          0x1fff'0000    0xc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+command line/config:
+    ----------------------------------------------
+    Total:
+
+C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F - Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj: [1]
+    board.o                   24
+    bubble.o                 984   88'220    1'720
+    clock_config.o           132       28
+    fsl_assert.o              28       44
+    fsl_clock.o            1'372      168       16
+    fsl_debug_console.o      624      196       32
+    fsl_i2c.o                124                20
+    fsl_str.o              1'744
+    fsl_uart.o             1'128      776       28
+    nnom.o                 2'126                 4
+    nnom_activation.o        106
+    nnom_baselayer.o          88
+    nnom_conv2d.o            982
+    nnom_dense.o             564
+    nnom_input.o             252
+    nnom_layers.o             98
+    nnom_local.o           2'518
+    nnom_local_q15.o         780
+    nnom_maxpool.o           568
+    nnom_output.o             88
+    nnom_softmax.o           178
+    nnom_tensor.o            446
+    nnom_utils.o             208
+    pin_mux.o                140
+    serial_manager.o         696      164
+    serial_port_uart.o       296      144
+    startup_MK64F12.o      1'494
+    system_MK64F12.o          54        4        4
+    uart_adapter.o           476      244
+    ----------------------------------------------
+    Total:                18'318   89'988    1'824
+
+dl7M_tln.a: [2]
+    abort.o                    6
+    dlmalloc.o             3'964               496
+    exit.o                     4
+    low_level_init.o           4
+    xgetmemchunk.o            44                 4
+    ----------------------------------------------
+    Total:                 4'022               500
+
+m7M_tls.a: [3]
+    DblMul.o                 418
+    DblToS32.o                58
+    S32ToDbl.o                34
+    fpinit_M.o                34
+    ----------------------------------------------
+    Total:                   544
+
+rt7M_tl.a: [4]
+    ABImemcpy.o              166
+    ABImemset.o              102
+    I64DivMod.o              628
+    I64DivZer.o                2
+    S64Shr.o                  34
+    cexit.o                   10
+    cmain.o                   30
+    copy_init3.o              46
+    cstartup_M.o              12
+    data_init.o               40
+    strlen.o                  54
+    zero_init3.o              58
+    ----------------------------------------------
+    Total:                 1'182
+
+shb_l.a: [5]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                       6        8
+    Linker created                     36   21'504
+--------------------------------------------------
+    Grand Total:          24'092   90'032   23'828
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address      Size  Type      Object
+-----                       -------      ----  ----      ------
+.iar.init_table$$Base      0x1'b91c             --   Gb  - Linker created -
+.iar.init_table$$Limit     0x1'b940             --   Gb  - Linker created -
+?main                      0x1'b941            Code  Gb  cmain.o [4]
+BOARD_BootClockRUN         0x1'a9d1      0x40  Code  Gb  clock_config.o [1]
+BOARD_InitDebugConsole     0x1'aa31      0x18  Code  Gb  board.o [1]
+BOARD_InitPins             0x1'a951      0x44  Code  Gb  pin_mux.o [1]
+CLOCK_BootToPeeMode        0x1'8a3d      0x4a  Code  Gb  fsl_clock.o [1]
+CLOCK_CONFIG_SetFllExtRefDiv
+                           0x1'a9bd      0x14  Code  Lc  clock_config.o [1]
+CLOCK_EnableClock          0x1'92f1      0x14  Code  Lc  fsl_uart.o [1]
+CLOCK_EnableClock          0x1'a921      0x12  Code  Lc  pin_mux.o [1]
+CLOCK_EnablePll0           0x1'88d3      0x56  Code  Gb  fsl_clock.o [1]
+CLOCK_GetCoreSysClkFreq
+                           0x1'86c5      0x16  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFllExtRefClkFreq
+                           0x1'85e7      0x70  Code  Lc  fsl_clock.o [1]
+CLOCK_GetFllFreq           0x1'872d      0x44  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFllFreq::fllFactorTable
+                           0x1'baa8      0x10  Data  Lc  fsl_clock.o [1]
+CLOCK_GetFllRefClkFreq     0x1'867d      0x20  Code  Lc  fsl_clock.o [1]
+CLOCK_GetInternalRefClkSelectFreq
+                           0x1'8657      0x26  Code  Lc  fsl_clock.o [1]
+CLOCK_GetMcgExtClkFreq     0x1'8583      0x64  Code  Lc  fsl_clock.o [1]
+CLOCK_GetOscRangeFromFreq
+                           0x1'86a5      0x20  Code  Lc  fsl_clock.o [1]
+CLOCK_GetOutClkFreq        0x1'86f5      0x38  Code  Gb  fsl_clock.o [1]
+CLOCK_GetPll0Freq          0x1'8771      0x52  Code  Gb  fsl_clock.o [1]
+CLOCK_GetPll0RefFreq       0x1'869d       0x8  Code  Lc  fsl_clock.o [1]
+CLOCK_InitOsc0             0x1'8929      0x4c  Code  Gb  fsl_clock.o [1]
+CLOCK_SetEr32kClock        0x1'854d       0xe  Code  Lc  fsl_clock.o [1]
+CLOCK_SetExternalRefClkConfig
+                           0x1'87c3      0x4a  Code  Gb  fsl_clock.o [1]
+CLOCK_SetInternalRefClkConfig
+                           0x1'880d      0xc6  Code  Gb  fsl_clock.o [1]
+CLOCK_SetPbeMode           0x1'89bd      0x72  Code  Gb  fsl_clock.o [1]
+CLOCK_SetPllFllSelClock
+                           0x1'855b       0xe  Code  Lc  fsl_clock.o [1]
+CLOCK_SetSimConfig         0x1'86db      0x1a  Code  Gb  fsl_clock.o [1]
+CLOCK_SetSimSafeDivs       0x1'a9ad       0xa  Code  Lc  clock_config.o [1]
+CLOCK_SetXtal0Freq         0x1'a9b7       0x6  Code  Lc  clock_config.o [1]
+CSTACK$$Base            0x2002'fc00             --   Gb  - Linker created -
+CSTACK$$Limit           0x2003'0000             --   Gb  - Linker created -
+Conv2D                     0x1'9c91     0x162  Code  Gb  nnom_conv2d.o [1]
+ConvertRadixNumToString
+                           0x1'7bcb     0x150  Code  Lc  fsl_str.o [1]
+DbgConsole_Init            0x1'8bcf      0xf2  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_PrintCallback
+                           0x1'8b91      0x3e  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_Printf          0x1'8cc1      0x48  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_ReadLine        0x1'8b2d      0x64  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_ReadOneCharacter
+                           0x1'8ac5      0x20  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_SendDataReliable
+                           0x1'8ae5      0x48  Code  Gb  fsl_debug_console.o [1]
+Dense                      0x1'a30d     0x120  Code  Gb  nnom_dense.o [1]
+HAL_UartGetStatus          0x1'9115      0x10  Code  Lc  uart_adapter.o [1]
+HAL_UartInit               0x1'9125      0xec  Code  Gb  uart_adapter.o [1]
+HAL_UartReceiveBlocking
+                           0x1'9211      0x64  Code  Gb  uart_adapter.o [1]
+HAL_UartSendBlocking       0x1'9275      0x5a  Code  Gb  uart_adapter.o [1]
+HEAP$$Base              0x1fff'0918             --   Gb  - Linker created -
+HEAP$$Limit             0x1fff'5918             --   Gb  - Linker created -
+I2C0_DriverIRQHandler      0x1'b3b9       0xe  Code  Gb  fsl_i2c.o [1]
+I2C1_DriverIRQHandler      0x1'b3c7       0xe  Code  Gb  fsl_i2c.o [1]
+I2C2_DriverIRQHandler      0x1'b3d5       0xe  Code  Gb  fsl_i2c.o [1]
+I2C_TransferCommonIRQHandler
+                           0x1'b379      0x36  Code  Lc  fsl_i2c.o [1]
+Input                      0x1'9b95      0x9e  Code  Gb  nnom_input.o [1]
+MaxPool                    0x1'a0d5      0xbc  Code  Gb  nnom_maxpool.o [1]
+OSC_SetCapLoad             0x1'8577       0xc  Code  Lc  fsl_clock.o [1]
+OSC_SetExtRefClkConfig     0x1'8569       0xe  Code  Lc  fsl_clock.o [1]
+Output                     0x1'a5f5      0x26  Code  Gb  nnom_output.o [1]
+PORT_SetPinMux             0x1'a933      0x1e  Code  Lc  pin_mux.o [1]
+RW$$Base                0x1fff'0000             --   Gb  - Linker created -
+RW$$Limit               0x1fff'000c             --   Gb  - Linker created -
+Region$$Table$$Base        0x1'b91c             --   Gb  - Linker created -
+Region$$Table$$Limit       0x1'b940             --   Gb  - Linker created -
+SerialManager_Init         0x1'8e85      0x6a  Code  Gb  serial_manager.o [1]
+SerialManager_OpenReadHandle
+                           0x1'8f45      0x5e  Code  Gb  serial_manager.o [1]
+SerialManager_OpenWriteHandle
+                           0x1'8eef      0x56  Code  Gb  serial_manager.o [1]
+SerialManager_Read         0x1'8e15      0x70  Code  Lc  serial_manager.o [1]
+SerialManager_ReadBlocking
+                           0x1'8fb7      0x14  Code  Gb  serial_manager.o [1]
+SerialManager_StartReading
+                           0x1'8d6b      0x36  Code  Lc  serial_manager.o [1]
+SerialManager_StartWriting
+                           0x1'8d35      0x36  Code  Lc  serial_manager.o [1]
+SerialManager_Write        0x1'8da1      0x74  Code  Lc  serial_manager.o [1]
+SerialManager_WriteBlocking
+                           0x1'8fa3      0x14  Code  Gb  serial_manager.o [1]
+Serial_UartInit            0x1'8fed      0x6e  Code  Gb  serial_port_uart.o [1]
+Serial_UartRead            0x1'90ad      0x52  Code  Gb  serial_port_uart.o [1]
+Serial_UartWrite           0x1'905b      0x52  Code  Gb  serial_port_uart.o [1]
+Softmax                    0x1'a541      0x4c  Code  Gb  nnom_softmax.o [1]
+StrFormatPrintf            0x1'7d1b     0x580  Code  Gb  fsl_str.o [1]
+SystemCoreClock         0x1fff'0008       0x4  Data  Gb  system_MK64F12.o [1]
+SystemInit                 0x1'b7c9      0x28  Code  Gb  system_MK64F12.o [1]
+UART0_DriverIRQHandler     0x1'9671      0x14  Code  Gb  fsl_uart.o [1]
+UART0_RX_TX_DriverIRQHandler
+                           0x1'9685       0xc  Code  Gb  fsl_uart.o [1]
+UART1_DriverIRQHandler     0x1'9691      0x14  Code  Gb  fsl_uart.o [1]
+UART1_RX_TX_DriverIRQHandler
+                           0x1'96a5       0xc  Code  Gb  fsl_uart.o [1]
+UART2_DriverIRQHandler     0x1'96b1      0x14  Code  Gb  fsl_uart.o [1]
+UART2_RX_TX_DriverIRQHandler
+                           0x1'96c5       0xc  Code  Gb  fsl_uart.o [1]
+UART3_DriverIRQHandler     0x1'96d1      0x14  Code  Gb  fsl_uart.o [1]
+UART3_RX_TX_DriverIRQHandler
+                           0x1'96e5       0xc  Code  Gb  fsl_uart.o [1]
+UART4_DriverIRQHandler     0x1'96f1      0x14  Code  Gb  fsl_uart.o [1]
+UART4_RX_TX_DriverIRQHandler
+                           0x1'9709       0xc  Code  Gb  fsl_uart.o [1]
+UART5_DriverIRQHandler     0x1'9715      0x14  Code  Gb  fsl_uart.o [1]
+UART5_RX_TX_DriverIRQHandler
+                           0x1'974d       0xc  Code  Gb  fsl_uart.o [1]
+UART_GetDefaultConfig      0x1'9549      0x58  Code  Gb  fsl_uart.o [1]
+UART_GetInstance           0x1'9305      0x36  Code  Gb  fsl_uart.o [1]
+UART_GetStatusFlags        0x1'95a1      0x1a  Code  Gb  fsl_uart.o [1]
+UART_Init                  0x1'933b     0x20e  Code  Gb  fsl_uart.o [1]
+UART_ReadBlocking          0x1'95d3      0x6a  Code  Gb  fsl_uart.o [1]
+UART_WriteBlocking         0x1'95bb      0x18  Code  Gb  fsl_uart.o [1]
+ZI$$Base                0x1fff'000c             --   Gb  - Linker created -
+ZI$$Limit               0x1fff'0914             --   Gb  - Linker created -
+__NNOM_SSAT                0x1'66ad      0x30  Code  Lc  nnom_local.o [1]
+__NNOM_SSAT                0x1'aa49      0x30  Code  Lc  nnom_local_q15.o [1]
+__NNOM_USAT                0x1'66dd      0x22  Code  Lc  nnom_local.o [1]
+__Vectors                       0x0             --   Gb  startup_MK64F12.o [1]
+__Vectors_End                 0x400            Data  Gb  startup_MK64F12.o [1]
+__Vectors_Size {Abs}          0x400             --   Gb  startup_MK64F12.o [1]
+__aeabi_assert             0x1'8aa9      0x1c  Code  Gb  fsl_assert.o [1]
+__aeabi_d2iz               0x1'a815            Code  Gb  DblToS32.o [3]
+__aeabi_dmul               0x1'a671            Code  Gb  DblMul.o [3]
+__aeabi_i2d                0x1'a64d            Code  Gb  S32ToDbl.o [3]
+__aeabi_lasr               0x1'ad55            Code  Gb  S64Shr.o [4]
+__aeabi_ldiv0              0x1'8549            Code  Gb  I64DivZer.o [4]
+__aeabi_ldivmod            0x1'829d            Code  Gb  I64DivMod.o [4]
+__aeabi_memcpy             0x1'7b25            Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4            0x1'7b45            Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8            0x1'7b45            Code  Gb  ABImemcpy.o [4]
+__aeabi_memset             0x1'7901            Code  Gb  ABImemset.o [4]
+__aeabi_uldivmod           0x1'82e1            Code  Gb  I64DivMod.o [4]
+__cmain                    0x1'b941            Code  Gb  cmain.o [4]
+__data_GetMemChunk         0x1'5c4d      0x2c  Code  Gb  xgetmemchunk.o [2]
+__data_GetMemChunk::start
+                        0x1fff'0910       0x4  Data  Lc  xgetmemchunk.o [2]
+__exit                     0x1'5c79      0x14  Code  Gb  exit.o [5]
+__iar_Memset               0x1'7901            Code  Gb  ABImemset.o [4]
+__iar_Memset_word          0x1'7909            Code  Gb  ABImemset.o [4]
+__iar_copy_init3           0x1'7083      0x2e  Code  Gb  copy_init3.o [4]
+__iar_data_init3           0x1'b8ad      0x28  Code  Gb  data_init.o [4]
+__iar_dlmalloc             0x1'4d19     0xeee  Code  Gb  dlmalloc.o [2]
+__iar_init_vfp             0x1'b8f9            Code  Gb  fpinit_M.o [3]
+__iar_program_start        0x1'bb59            Code  Gb  cstartup_M.o [4]
+__iar_zero_init3           0x1'5c13      0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init           0x1'b95f       0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0            Data  Gb  startup_MK64F12.o [1]
+__vector_table_0x1c            0x1c            Data  Gb  startup_MK64F12.o [1]
+_call_main                 0x1'b94d            Code  Gb  cmain.o [4]
+_exit                      0x1'b969            Code  Gb  cexit.o [4]
+_gm_                    0x1fff'0738     0x1d8  Data  Lc  dlmalloc.o [2]
+_main                      0x1'b95b            Code  Gb  cmain.o [4]
+abort                      0x1'5c0d       0x6  Code  Gb  abort.o [2]
+act_get_dec_bit            0x1'a0b5      0x1e  Code  Gb  nnom_activation.o [1]
+act_relu                   0x1'a09b      0x12  Code  Gb  nnom_activation.o [1]
+allocate_block             0x1'72bf      0x2e  Code  Lc  nnom.o [1]
+allocate_hook              0x1'717b      0x38  Code  Lc  nnom.o [1]
+allocate_io                0x1'71b3      0x3c  Code  Lc  nnom.o [1]
+block_mem_set              0x1'76fb      0x3c  Code  Gb  nnom.o [1]
+codeLib                    0x1'b738      0x48  Data  Gb  bubble.o [1]
+compile_layers             0x1'73dd     0x302  Code  Gb  nnom.o [1]
+conv2d_1_b                 0x1'bb78       0x8  Data  Lc  bubble.o [1]
+conv2d_1_bias              0x1'baf8       0xc  Data  Lc  bubble.o [1]
+conv2d_1_w                 0x1'bb70       0x8  Data  Lc  bubble.o [1]
+conv2d_1_weights           0x1'b3f4      0x6c  Data  Lc  bubble.o [1]
+conv2d_2_b                 0x1'bb88       0x8  Data  Lc  bubble.o [1]
+conv2d_2_bias              0x1'b9f4      0x18  Data  Lc  bubble.o [1]
+conv2d_2_w                 0x1'bb80       0x8  Data  Lc  bubble.o [1]
+conv2d_2_weights           0x1'5c8c     0xa20  Data  Lc  bubble.o [1]
+conv2d_3_b                 0x1'bb98       0x8  Data  Lc  bubble.o [1]
+conv2d_3_bias              0x1'b800      0x30  Data  Lc  bubble.o [1]
+conv2d_3_w                 0x1'bb90       0x8  Data  Lc  bubble.o [1]
+conv2d_3_weights           0x1'2410    0x2880  Data  Lc  bubble.o [1]
+conv2d_build               0x1'9e25     0x10c  Code  Gb  nnom_conv2d.o [1]
+conv2d_run                 0x1'9f31     0x136  Code  Gb  nnom_conv2d.o [1]
+conv_output_length         0x1'9df3      0x30  Code  Gb  nnom_conv2d.o [1]
+default_build              0x1'b5e9      0x56  Code  Gb  nnom_baselayer.o [1]
+dense_1_b                  0x1'bba8       0x8  Data  Lc  bubble.o [1]
+dense_1_bias               0x1'b4cc      0x60  Data  Lc  bubble.o [1]
+dense_1_w                  0x1'bba0       0x8  Data  Lc  bubble.o [1]
+dense_1_weights               0x410  0x1'2000  Data  Lc  bubble.o [1]
+dense_2_b                  0x1'bbb8       0x8  Data  Lc  bubble.o [1]
+dense_2_bias               0x1'bb04       0xc  Data  Lc  bubble.o [1]
+dense_2_w                  0x1'bbb0       0x8  Data  Lc  bubble.o [1]
+dense_2_weights            0x1'ad78     0x3c0  Data  Lc  bubble.o [1]
+dense_build                0x1'a431      0xac  Code  Gb  nnom_dense.o [1]
+dense_run                  0x1'a4dd      0x64  Code  Gb  nnom_dense.o [1]
+dilation                   0x1'9b79      0x12  Code  Gb  nnom_layers.o [1]
+exit                       0x1'b963       0x4  Code  Gb  exit.o [2]
+find_last                  0x1'7127      0x1e  Code  Lc  nnom.o [1]
+g_serialHandle          0x1fff'06e8       0x4  Data  Gb  fsl_debug_console.o [1]
+g_xtal0Freq             0x1fff'06c4       0x4  Data  Gb  fsl_clock.o [1]
+g_xtal32Freq            0x1fff'06c8       0x4  Data  Gb  fsl_clock.o [1]
+init_mparams               0x1'4cab      0x2c  Code  Lc  dlmalloc.o [2]
+init_top                   0x1'4cd7      0x34  Code  Lc  dlmalloc.o [2]
+input_build                0x1'9c35      0x2e  Code  Gb  nnom_input.o [1]
+input_run                  0x1'9c65      0x2c  Code  Gb  nnom_input.o [1]
+io_init                    0x1'9b8b       0x8  Code  Gb  nnom_layers.o [1]
+io_mem_size                0x1'70ed      0x20  Code  Lc  nnom.o [1]
+kernel                     0x1'9b55      0x12  Code  Gb  nnom_layers.o [1]
+layer_run                  0x1'784f      0x30  Code  Gb  nnom.o [1]
+layer_shortcut_add         0x1'7349      0x26  Code  Lc  nnom.o [1]
+local_convolve_HWC_q15_nonsquare
+                           0x1'aa79     0x2c2  Code  Gb  nnom_local_q15.o [1]
+local_convolve_HWC_q7_nonsquare
+                           0x1'68a9     0x2a6  Code  Gb  nnom_local.o [1]
+local_fully_connected_q7_opt
+                           0x1'6b4f     0x45a  Code  Gb  nnom_local.o [1]
+local_maxpool_q7_HWC       0x1'66ff     0x1aa  Code  Gb  nnom_local.o [1]
+local_relu_q15             0x1'ad3b      0x1a  Code  Gb  nnom_local_q15.o [1]
+local_relu_q7              0x1'706d      0x16  Code  Gb  nnom_local.o [1]
+local_softmax_q7           0x1'6fa9      0xc4  Code  Gb  nnom_local.o [1]
+main                       0x1'9a8b      0x3c  Code  Gb  bubble.o [1]
+maxpool_build              0x1'a195      0xf8  Code  Gb  nnom_maxpool.o [1]
+maxpool_run                0x1'a28d      0x80  Code  Gb  nnom_maxpool.o [1]
+mcgConfig_BOARD_BootClockRUN
+                           0x1'bb10       0xc  Data  Gb  clock_config.o [1]
+mem_analysis_result        0x1'76df      0x1c  Code  Gb  nnom.o [1]
+mnist_pic                  0x1'9a39      0x52  Code  Gb  bubble.o [1]
+model                   0x1fff'03b0       0x4  Data  Gb  bubble.o [1]
+model_active               0x1'726b       0x8  Code  Lc  nnom.o [1]
+model_add                  0x1'7145      0x36  Code  Lc  nnom.o [1]
+model_compile              0x1'77d1      0x7e  Code  Gb  nnom.o [1]
+model_hook                 0x1'71ef      0x2c  Code  Lc  nnom.o [1]
+model_merge                0x1'7255      0x16  Code  Lc  nnom.o [1]
+model_mergex               0x1'721b      0x3a  Code  Lc  nnom.o [1]
+model_run                  0x1'78f1       0xe  Code  Gb  nnom.o [1]
+model_run_to               0x1'787f      0x72  Code  Gb  nnom.o [1]
+model_set_ops              0x1'77a9      0x28  Code  Lc  nnom.o [1]
+mparams                 0x1fff'0720      0x18  Data  Lc  dlmalloc.o [2]
+new_model                  0x1'7273      0x4c  Code  Gb  nnom.o [1]
+new_tensor                 0x1'7999      0x60  Code  Gb  nnom_tensor.o [1]
+nnom_alignto               0x1'710d      0x1a  Code  Gb  nnom.o [1]
+nnom_hook_length           0x1'732f      0x1a  Code  Gb  nnom.o [1]
+nnom_input_data         0x1fff'000c     0x310  Data  Lc  bubble.o [1]
+nnom_mem                   0x1'70b1      0x3c  Code  Gb  nnom.o [1]
+nnom_memory_taken       0x1fff'071c       0x4  Data  Gb  nnom.o [1]
+nnom_model_create          0x1'9759     0x270  Code  Lc  bubble.o [1]
+nnom_model_create::model
+                        0x1fff'0328      0x88  Data  Lc  bubble.o [1]
+nnom_output_data        0x1fff'031c       0xc  Data  Lc  bubble.o [1]
+nnom_predict               0x1'a851      0xcc  Code  Gb  nnom_utils.o [1]
+oscConfig_BOARD_BootClockRUN
+                           0x1'bbc8       0x8  Data  Gb  clock_config.o [1]
+output_run                 0x1'a621      0x2c  Code  Gb  nnom_output.o [1]
+print_img                  0x1'99c9      0x6e  Code  Gb  bubble.o [1]
+print_layer_info           0x1'736f      0x42  Code  Lc  nnom.o [1]
+print_memory_block_info
+                           0x1'73cd      0x10  Code  Lc  nnom.o [1]
+release_block              0x1'72ed      0x18  Code  Lc  nnom.o [1]
+release_comp_mem           0x1'731b      0x14  Code  Lc  nnom.o [1]
+release_input_mem          0x1'7305      0x16  Code  Lc  nnom.o [1]
+relu_run                   0x1'a069      0x32  Code  Lc  nnom_activation.o [1]
+s_UartAdapterBase          0x1'ba54      0x18  Data  Lc  uart_adapter.o [1]
+s_debugConsoleState     0x1fff'06cc      0x1c  Data  Lc  fsl_debug_console.o [1]
+s_fastIrcFreq           0x1fff'0004       0x4  Data  Lc  fsl_clock.o [1]
+s_i2cHandle             0x1fff'06ec       0xc  Data  Lc  fsl_i2c.o [1]
+s_i2cMasterIsr          0x1fff'06f8       0x4  Data  Lc  fsl_i2c.o [1]
+s_i2cSlaveIsr           0x1fff'06fc       0x4  Data  Lc  fsl_i2c.o [1]
+s_slowIrcFreq           0x1fff'0000       0x4  Data  Lc  fsl_clock.o [1]
+s_uartBases                0x1'ba24      0x18  Data  Lc  fsl_uart.o [1]
+s_uartClock                0x1'ba3c      0x18  Data  Lc  fsl_uart.o [1]
+s_uartHandle            0x1fff'0700      0x18  Data  Lc  fsl_uart.o [1]
+s_uartIsr               0x1fff'0718       0x4  Data  Lc  fsl_uart.o [1]
+segment_holding            0x1'4c91      0x1a  Code  Lc  dlmalloc.o [2]
+set_tailed_activation      0x1'776f      0x3a  Code  Gb  nnom.o [1]
+shape                      0x1'9b31      0x24  Code  Gb  nnom_layers.o [1]
+simConfig_BOARD_BootClockRUN
+                           0x1'bbc0       0x8  Data  Gb  clock_config.o [1]
+softmax_build              0x1'a58d      0x42  Code  Gb  nnom_softmax.o [1]
+softmax_run                0x1'a5d1      0x22  Code  Gb  nnom_softmax.o [1]
+stride                     0x1'9b67      0x12  Code  Gb  nnom_layers.o [1]
+strlen                     0x1'8511            Code  Gb  strlen.o [4]
+temp                    0x1fff'03b4     0x310  Data  Gb  bubble.o [1]
+tensor_cpy_attr            0x1'7aab      0x7a  Code  Gb  nnom_tensor.o [1]
+tensor_get_num_channel     0x1'798b       0xe  Code  Gb  nnom_tensor.o [1]
+tensor_mem_set             0x1'7737      0x38  Code  Gb  nnom.o [1]
+tensor_set_attr            0x1'7a35      0x76  Code  Gb  nnom_tensor.o [1]
+tensor_set_attr_v          0x1'79f9      0x3c  Code  Gb  nnom_tensor.o [1]
+tensor_size                0x1'7967      0x24  Code  Gb  nnom_tensor.o [1]
+
+
+[1] = C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F - Copy\boards\frdmk64f\demo_apps\ML\iar\debug\obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  24'092 bytes of readonly  code memory
+  90'032 bytes of readonly  data memory
+  23'828 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,74 @@
+nnom_avgpool.pbi: \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\src\layers\nnom_avgpool.c \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  C:\\Program\ Files\ (x86)\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\string.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product_string.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdbool.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc\nnom.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdarg.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\math.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_float_setup.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\port\nnom_port.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdlib.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product_stdlib.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdio.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../devices/MK64F12/utilities/debug_console\fsl_debug_console.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../devices/MK64F12/drivers\fsl_common.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\assert.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stddef.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../devices/MK64F12\fsl_device_registers.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../devices/MK64F12/MK64F12.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../CMSIS/Include\core_cm4.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../CMSIS/Include/cmsis_version.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../CMSIS/Include/cmsis_compiler.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../CMSIS/Include\cmsis_iccarm.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\iccarm_builtin.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../devices/MK64F12/system_MK64F12.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../devices/MK64F12/MK64F12_features.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../devices/MK64F12/drivers/fsl_clock.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../devices/MK64F12/drivers/fsl_common.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../components/serial_manager\serial_manager.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar/../../../../../components/serial_manager/serial_port_uart.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/nnom_tensor.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/nnom.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/nnom_layers.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_activation.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc\nnom_layers.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc\nnom_local.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc\nnom_tensor.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_concat.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_conv2d.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_cropping.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc\layers/nnom_zero_padding.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_conv2d_trans.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc\layers/nnom_conv2d.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_dense.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_dw_conv2d.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_flatten.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_global_pool.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc\layers/nnom_maxpool.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_input.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_lambda.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc\layers/nnom_input.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_matrix.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_maxpool.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_avgpool.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_output.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_rnn.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_softmax.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_sumpool.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_upsample.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_zero_padding.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_simple_cell.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc\layers/nnom_rnn.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc\layers/nnom_activation.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_lstm_cell.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/layers/nnom_gru_cell.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc/nnom_utils.h \
+  C:\kinetis\a_sdk\k6x\SDK_2.6.0_FRDM-K64F\boards\frdmk64f\demo_apps\ML\iar\inc\layers/nnom_avgpool.h

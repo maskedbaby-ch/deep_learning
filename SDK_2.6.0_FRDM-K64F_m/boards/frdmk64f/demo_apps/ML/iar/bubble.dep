@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>28266463</fileChecksum>
+    <configuration>
+        <name>debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\serial_manager\serial_manager.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\system_MK64F12.c</file>
+            <file>$PROJ_DIR$\..\weights.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\lists\generic_list.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\serial_manager\serial_port_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\pin_mux.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\MK64F12_features.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\system_MK64F12.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\lists\generic_list.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\serial_manager\serial_manager.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\serial_manager\serial_port_internal.h</file>
+            <file>$PROJ_DIR$\..\image.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\serial_manager\serial_port_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\uart\uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\fsl_device_registers.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\uart\uart_adapter.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\MK64F12.h</file>
+            <file>$PROJ_DIR$\..\pin_mux.h</file>
+            <file>$PROJ_DIR$\..\board.h</file>
+            <file>$PROJ_DIR$\..\clock_config.c</file>
+            <file>$PROJ_DIR$\..\clock_config.h</file>
+            <file>$PROJ_DIR$\..\board.c</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_layers.xcl</file>
+            <file>$PROJ_DIR$\debug\bubble.out</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_conv2d_trans.o</file>
+            <file>$PROJ_DIR$\debug\obj\serial_port_uart.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_dense.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_gru_cell.xcl</file>
+            <file>$PROJ_DIR$\debug\bubble.bin</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_cache.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_lstm_cell.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\serial_manager.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_controller.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_input.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_activation.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_gru_cell.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_assert.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_lstm_cell.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_rnn.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_maxpool.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_concat.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_flash.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_uart.o</file>
+            <file>$PROJ_DIR$\debug\obj\bubble.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_softmax.o</file>
+            <file>$PROJ_DIR$\debug\obj\bubble.pbd</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_baselayer.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_sumpool.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_global_pool.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_assert.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_output.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\pin_mux.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_common.o</file>
+            <file>$PROJ_DIR$\debug\obj\serial_manager.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_local_q15.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_activation.o</file>
+            <file>$PROJ_DIR$\debug\obj\system_MK64F12.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpio.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_debug_console.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_layers.o</file>
+            <file>$PROJ_DIR$\debug\list\bubble.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\debug\obj\uart_adapter.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_common.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftm.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_matrix.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_sumpool.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\uart_adapter.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_controller.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_utils.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpio.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\debug\obj\nnom.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_softmax.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_lambda.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\clock_config.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_lambda.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_output.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_flatten.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_simple_cell.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_local.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_smc.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_upsample.o</file>
+            <file>$PROJ_DIR$\MK64FN1M0xxx12_flash.icf</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftm.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_zero_padding.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_zero_padding.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_dw_conv2d.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_cache.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_rnn.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_conv2d_trans.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\generic_list.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_flash.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_utils.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_clock.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_clock.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_cropping.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_concat.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_avgpool.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_simple_cell.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_dense.o</file>
+            <file>$PROJ_DIR$\debug\obj\board.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_flexnvm.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_input.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_dw_conv2d.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_global_pool.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_upsample.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_maxpool.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_baselayer.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_avgpool.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\debug\obj\system_MK64F12.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_tensor.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_flexnvm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_flexnvm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_adapter.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_cache.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_clock.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_controller.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_clock.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_features.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_utilities.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_flash.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_port.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_smc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_uart.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_activation.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_avgpool.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_smc.c</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_baselayer.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_concat.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_cache.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_controller.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_flash.c</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_output.h</file>
+            <file>$PROJ_DIR$\inc\nnom.h</file>
+            <file>$PROJ_DIR$\inc\nnom_layers.h</file>
+            <file>$PROJ_DIR$\src\backends\nnom_local_q15.c</file>
+            <file>$PROJ_DIR$\src\core\nnom_layers.c</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_global_pool.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_matrix.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_conv2d.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_cropping.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_input.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_conv2d_trans.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_rnn.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_simple_cell.h</file>
+            <file>$PROJ_DIR$\inc\nnom_local.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_softmax.h</file>
+            <file>$PROJ_DIR$\inc\nnom_tensor.h</file>
+            <file>$PROJ_DIR$\inc\nnom_utils.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_upsample.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_gru_cell.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_lstm_cell.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_dw_conv2d.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_sumpool.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_maxpool.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_zero_padding.h</file>
+            <file>$PROJ_DIR$\port\nnom_port.h</file>
+            <file>$PROJ_DIR$\..\bubble.c</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_dense.h</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_lambda.h</file>
+            <file>$PROJ_DIR$\src\backends\nnom_local.c</file>
+            <file>$PROJ_DIR$\inc\layers\nnom_flatten.h</file>
+            <file>$PROJ_DIR$\src\core\nnom.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_gru_cell.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_upsample.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_conv2d_trans.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_zero_padding.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_global_pool.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\iar\startup_MK64F12.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\fsl_assert.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_concat.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\debug_console\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_dense.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_lstm_cell.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\debug_console\fsl_debug_console.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\debug_console\fsl_debug_console_conf.h</file>
+            <file>$PROJ_DIR$\src\layers\nnom_dw_conv2d.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\str\fsl_str.c</file>
+            <file>$PROJ_DIR$\src\core\nnom_tensor.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_maxpool.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_avgpool.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_input.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_lambda.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_simple_cell.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_baselayer.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_conv2d.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_flatten.c</file>
+            <file>$PROJ_DIR$\src\core\nnom_utils.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_cropping.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_activation.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_matrix.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_rnn.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_output.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_softmax.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_sumpool.c</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_str.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\bubble.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_i2c.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\debug\obj\startup_MK64F12.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_smc.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_i2c.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_str.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_uart.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_cropping.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_matrix.o</file>
+            <file>$PROJ_DIR$\debug\obj\serial_port_uart.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\generic_list.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_local.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_conv2d.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\str\fsl_str.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_tensor.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_local_q15.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\debug\obj\clock_config.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_flexnvm.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\debug\obj\pin_mux.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\board.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_flatten.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_conv2d.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_avgpool.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_baselayer.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_concat.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_conv2d.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_cropping.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_conv2d_trans.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_dw_conv2d.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_flatten.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_dense.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_activation.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_local_q15.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_layers.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_tensor.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_utils.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_flexnvm.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\bubble.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_local.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_controller.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftm.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_flash.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_smc.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_cache.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\pin_mux.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\generic_list.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\serial_manager.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\serial_port_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\uart_adapter.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\system_MK64F12.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_clock.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_common.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\board.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\clock_config.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_matrix.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_lambda.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_global_pool.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_input.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_rnn.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_assert.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_output.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_debug_console.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_maxpool.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_lstm_cell.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_str.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_sumpool.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_upsample.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_gru_cell.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_zero_padding.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_softmax.__cstat.et</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_simple_cell.__cstat.et</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 27 71</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\components\serial_manager\serial_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 283</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 13 5 14</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\system_MK64F12.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 286</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 129</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 18 20 7 11 6 4 244 10 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 281</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 251</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 149 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\components\lists\generic_list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 282</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 240</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\components\serial_manager\serial_port_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 284</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 239</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 13 5 14 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\components\uart\uart_adapter.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 285</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 151 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 290</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 248</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 24</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 289</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 252</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22 24 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 148 149 203 13 5</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\debug\bubble.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 97 117 48 89 41 110 61 78 104 36 108 119 98 83 226 95 231 47 107 85 64 114 52 113 254 28 112 116 121 92 122 39 120 90 70 241 63 42 238 44 91 105 115 50 53 245 96 82 100 60 62 29 228 65 73 49 128 227 236</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_flexnvm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 272</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 249</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132 159 145 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 137 146</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 276</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 270</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 226</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 278</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 230</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 287</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 271</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 232</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 151 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_controller.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 159 145 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 137 146</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 288</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_smc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 279</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 229</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 280</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139 159 145 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 137 146</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 277</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147 159 145 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 137 146</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\backends\nnom_local_q15.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 265</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 246</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 162 55 74 233 68 103 234 99 54 86 247 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\core\nnom_layers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 266</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\bubble.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 273</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 225</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 203 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 13 5 22 24 148 149 21 185 40 162 125 118 84 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177 2 15</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\backends\nnom_local.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 241</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 274</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 162 55 74 233 68 103 234 99 54 86 247 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\core\nnom.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 268</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 125 162 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_gru_cell.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 304</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_upsample.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 303</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_conv2d_trans.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 260</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_zero_padding.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 305</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_global_pool.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 293</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\iar\startup_MK64F12.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 228</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 296</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136 56 74 233 68 103 234 247 55 99 54 86 72 250 235 18 20 7 11 6 4 244 10 9 144 203 13 5</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_concat.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 257</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\debug_console\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 298</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125 72 74 233 68 103 234 54 250 204 243 136 56 247 55 99 86 235 18 20 7 11 6 4 244 10 9 144 13 5 203</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_dense.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 263</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_lstm_cell.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 300</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_dw_conv2d.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 261</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\str\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 231</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 301</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 224</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118 74 233 68 103 234 84 125 72 54 250 243 136 56 247 55 99 86 235 18 20 7 11 6 4 244 10 9 144 204</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\core\nnom_tensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 267</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 130</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 125 162 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_maxpool.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 299</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_avgpool.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 255</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_input.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 294</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_lambda.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 292</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_simple_cell.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 307</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_baselayer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 256</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177 156</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_conv2d.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 254</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 258</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_flatten.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 262</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 253</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\core\nnom_utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 269</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 40 54 99 86 247 162 125 118 84 185 72 250 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_cropping.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 259</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 237</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_activation.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 264</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 118 84 162 125 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_matrix.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 291</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_rnn.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 295</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_output.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 297</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_softmax.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 306</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_sumpool.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 302</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 74 233 68 103 234 99 54 86 247 162 125 118 84 185 72 250 40 203 136 56 235 18 20 7 11 6 4 244 10 9 144 13 5 176 163 152 174 157 168 169 184 171 187 181 190 166 183 170 188 167 153 161 172 175 182 178 173 180 179 177</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

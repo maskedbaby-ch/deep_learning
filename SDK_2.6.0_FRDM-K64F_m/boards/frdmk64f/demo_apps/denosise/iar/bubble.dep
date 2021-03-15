@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2359215197</fileChecksum>
+    <configuration>
+        <name>debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_flexnvm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_clock.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_cache.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_sdhc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_smc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\system_MK64F12.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_controller.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\uart\uart_adapter.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\middleware\fatfs\source\ffunicode.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\middleware\fatfs\source\fsl_sd_disk\fsl_sd_disk.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\middleware\fatfs\source\ffsystem.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\middleware\fatfs\source\diskio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\middleware\fatfs\source\ff.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_rnn.c</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_flash.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\fsl_assert.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_maxpool.c</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\src\layers\nnom_flatten.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\str\fsl_str.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_simple_cell.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_upsample.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_dense.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_conv2d_trans.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_cropping.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_concat.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_gru_cell.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_lambda.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_conv2d.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_lstm_cell.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_matrix.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_output.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_softmax.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_sumpool.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_zero_padding.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\debug_console\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_global_pool.c</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_matrix.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_controller.xcl</file>
+            <file>$PROJ_DIR$\src\layers\nnom_input.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_dw_conv2d.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\iar\startup_MK64F12.s</file>
+            <file>$PROJ_DIR$\src\backends\nnom_local_q15.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_avgpool.c</file>
+            <file>$PROJ_DIR$\src\layers\nnom_activation.c</file>
+            <file>$PROJ_DIR$\src\core\nnom.c</file>
+            <file>$PROJ_DIR$\src\core\nnom_layers.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\middleware\sdmmc\port\sdhc\interrupt\fsl_sdmmc_host.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\middleware\sdmmc\src\fsl_sd.c</file>
+            <file>$PROJ_DIR$\src\backends\nnom_local.c</file>
+            <file>$PROJ_DIR$\src\core\nnom_tensor.c</file>
+            <file>$PROJ_DIR$\src\core\nnom_utils.c</file>
+            <file>$PROJ_DIR$\..\bubble.c</file>
+            <file>$PROJ_DIR$\..\ffconf.h</file>
+            <file>$PROJ_DIR$\src\layers\nnom_baselayer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\middleware\sdmmc\src\fsl_sdmmc_common.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\middleware\sdmmc\port\sdhc\interrupt\fsl_sdmmc_event.c</file>
+            <file>$PROJ_DIR$\debug\bubble.bin</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_global_pool.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_flexnvm.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_upsample.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_utils.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_smc.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_simple_cell.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sd_disk.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\mfcc.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_rnn.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_clock.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\clock_config.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_flash.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_tensor.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_flatten.o</file>
+            <file>$PROJ_DIR$\debug\obj\bubble.o</file>
+            <file>$PROJ_DIR$\debug\obj\mfcc.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_cache.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_maxpool.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_output.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_controller.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftm.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_baselayer.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\board.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_layers.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_avgpool.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\pin_mux.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_uart.o</file>
+            <file>$PROJ_DIR$\debug\obj\system_MK64F12.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftm.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_sumpool.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_softmax.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\uart_adapter.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_utils.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_activation.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_local_q15.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_common.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_gru_cell.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\debug\obj\system_MK64F12.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_dense.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_softmax.o</file>
+            <file>$PROJ_DIR$\debug\obj\serial_port_uart.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_lambda.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\serial_manager.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_output.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\serial_manager.o</file>
+            <file>$PROJ_DIR$\debug\obj\uart_adapter.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_gru_cell.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_assert.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_rnn.xcl</file>
+            <file>$PROJ_DIR$\..\pin_mux.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\lists\generic_list.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\serial_manager\serial_manager.c</file>
+            <file>$PROJ_DIR$\..\clock_config.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\components\serial_manager\serial_port_uart.c</file>
+            <file>$PROJ_DIR$\..\board.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\ML\nnom-master\examples\rnn-denoise\mfcc.c</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sd_disk.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdmmc_event.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdmmc_host.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_cache.o</file>
+            <file>$PROJ_DIR$\debug\obj\ffsystem.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdmmc_host.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_dw_conv2d.o</file>
+            <file>$PROJ_DIR$\debug\obj\ff.o</file>
+            <file>$PROJ_DIR$\debug\obj\ff.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdmmc_common.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sd.o</file>
+            <file>$PROJ_DIR$\debug\obj\generic_list.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_upsample.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_simple_cell.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\ffunicode.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdmmc_event.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\diskio.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdhc.o</file>
+            <file>$PROJ_DIR$\debug\obj\diskio.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_local.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\ffunicode.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdmmc_common.o</file>
+            <file>$PROJ_DIR$\debug\obj\ffsystem.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sd.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdhc.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_local_q15.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\bubble.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_tensor.o</file>
+            <file>$PROJ_DIR$\debug\obj\startup_MK64F12.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_i2c.o</file>
+            <file>$PROJ_DIR$\debug\obj\generic_list.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_str.o</file>
+            <file>$PROJ_DIR$\debug\obj\pin_mux.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_smc.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\board.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_layers.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpio.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_debug_console.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_assert.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_common.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_uart.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_cropping.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_ftfx_flexnvm.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_i2c.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_str.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_matrix.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_flatten.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_conv2d.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_concat.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_maxpool.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_local.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_activation.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_conv2d_trans.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_lstm_cell.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_concat.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_cropping.o</file>
+            <file>$PROJ_DIR$\debug\bubble.out</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_zero_padding.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_input.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_sumpool.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_baselayer.o</file>
+            <file>$PROJ_DIR$\debug\obj\clock_config.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_conv2d.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_dw_conv2d.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_conv2d_trans.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_avgpool.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_zero_padding.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_lambda.o</file>
+            <file>$PROJ_DIR$\debug\obj\serial_port_uart.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_lstm_cell.o</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_input.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_clock.o</file>
+            <file>$PROJ_DIR$\debug\obj\bubble.pbd</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_global_pool.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\nnom_dense.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_flexnvm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 165</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 166</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 194</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_sdhc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 147</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_smc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 156</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 162</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\system_MK64F12.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_controller.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\components\uart\uart_adapter.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\middleware\fatfs\source\ffunicode.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 137</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\drivers\fsl_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 163</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\middleware\fatfs\source\fsl_sd_disk\fsl_sd_disk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\middleware\fatfs\source\ffsystem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\middleware\fatfs\source\diskio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\middleware\fatfs\source\ff.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 131</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_rnn.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 161</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_maxpool.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_flatten.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 169</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\str\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 154</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 167</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_simple_cell.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 136</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_upsample.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_dense.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_conv2d_trans.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 187</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 175</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_cropping.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 178</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 164</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_concat.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 177</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_gru_cell.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_lambda.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 190</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_conv2d.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_lstm_cell.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 192</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_matrix.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 168</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_output.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_softmax.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_sumpool.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_zero_padding.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 180</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 189</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\utilities\debug_console\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_global_pool.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 196</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_input.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 181</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 193</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_dw_conv2d.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\MK64F12\iar\startup_MK64F12.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 151</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\backends\nnom_local_q15.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 148</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_avgpool.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_activation.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 174</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\core\nnom.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\core\nnom_layers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\middleware\sdmmc\port\sdhc\interrupt\fsl_sdmmc_host.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\middleware\sdmmc\src\fsl_sd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 146</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\backends\nnom_local.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 173</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\core\nnom_tensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\core\nnom_utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\bubble.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 149</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\layers\nnom_baselayer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 183</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\middleware\sdmmc\src\fsl_sdmmc_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\middleware\sdmmc\port\sdhc\interrupt\fsl_sdmmc_event.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\components\lists\generic_list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\components\serial_manager\serial_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 184</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\components\serial_manager\serial_port_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 191</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\ML\nnom-master\examples\rnn-denoise\mfcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\debug\bubble.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
